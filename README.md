@@ -27,28 +27,45 @@ Interactive UI: Potential use of Gradio for a user-friendly interface.
 
 # Requirements
 Install the required Python packages using the following command:
+
 pip install -r requirements.txt
 
 # Usage
 Data Analysis: Open eda.ipynb in a Jupyter Notebook to explore and understand the data.
+
 Model Training: Use model.ipynb to train the models on the provided dataset (Walmart.csv).
+
 Predictions: Run app.py to generate predictions and interact with the application.
+
 Testing: Execute test.py to test the deployed models.
 
 # Results
 Model Performance: 
+
 Random Forest and XGBoost models were evaluated for accuracy and efficiency.
+
 Visualizations (rfplot.png and xgbplot.png) demonstrate their performance.
+
 Output:
+
 Predicted results are saved in predicted_inventory_management.xls.
+
 Dataset
+
 Name: Walmart Dataset
+
 Description: Contains historical data for inventory analysis and forecasting.
+
 File: Walmart.csv
 
 # Getting Started
+
 Clone this repository:
+
 git clone https://github.com/your-username/your-repo-name.git
+
 cd your-repo-name
+
 Run the application:
+
 python app.py
